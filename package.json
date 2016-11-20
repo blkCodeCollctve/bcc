@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ZuriHunter/bcc/issues"
   },
-  "homepage": "https://github.com/ZuriHunter/bcc#readme"
+  "homepage": "https://github.com/ZuriHunter/bcc#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
 }
