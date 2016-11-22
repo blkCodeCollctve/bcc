@@ -5,5 +5,5 @@
 2. Run `http-server` and go to designated url typically http://localhost:8080
 3. Navigate to index.html to view website
 
-## Current Dependencies
+## Current Needed Libraries
 * jQuery

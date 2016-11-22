@@ -18,7 +18,7 @@
   height: 50px;
   width: 100%;
   position: fixed;
-  z-index: 9999;
+  z-index: 10000;
 
 }
 
@@ -143,6 +143,7 @@ video{
  color:#b3b3b3;
  line-height:100px;
  text-rendering: auto;
+ cursor: pointer;
 }
 
 .bounce {
@@ -183,4 +184,41 @@ video{
  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
  40% {transform: translateY(-30px);}
  60% {transform: translateY(-15px);}
+}
+
+
+/* 3D Transformation */
+.cube {
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+  z-index: 5;
+
+	-webkit-transition: -webkit-transform .33s;
+	transition: transform .33s; /* Animate the transform properties */
+
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d; /* <-NB */
+}
+
+.flippity, .flop {
+  /*z-index: 6;*/
+}
+
+/* Position the faces */
+.flippity {
+	-webkit-transform: translateZ(50px);
+	transform: translateZ(50px);
+}
+
+.flop {
+	-webkit-transform: rotateX(-90deg) translateZ(-50px);
+	transform: rotateX(-90deg) translateZ(-50px);
+}
+
+/* Rotate the cube */
+.cube:hover {
+	-webkit-transform: rotateX(89deg);
+	transform: rotateX(89deg); /* Text bleed*/
+  z-index: 999;
 }
