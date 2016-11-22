@@ -187,7 +187,7 @@ video{
 }
 
 
-/* 3D Transformation */
+/* 3D Transformation http://cssdeck.com/labs/css3-flipping-cube */
 .cube {
 	width: 100%;
 	margin: 0 auto;
