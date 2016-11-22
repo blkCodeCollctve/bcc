@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 
 }
 
@@ -183,4 +183,23 @@ video{
  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
  40% {transform: translateY(-30px);}
  60% {transform: translateY(-15px);}
+}
+
+#about {
+  /*background-color: red;*/
+}
+
+.about-header {
+  height: 35%;
+  padding-top: 80px;
+  background-color: blue;
+  font-family: 'Lucida-Grande', sans-serif;
+  font-size: 25px;
+}
+
+
+.about-content {
+  background-color: green;
+  height: 65%;
+  font-family: 'Lucida-Grande', sans-serif;
 }
