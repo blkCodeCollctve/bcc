@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 
 }
 
@@ -21,7 +21,6 @@
   z-index: 9999;
 
 }
-
 
 .navbar ul li {
   float: right;
@@ -187,19 +186,47 @@ video{
 
 #about {
   /*background-color: red;*/
+  font-family: 'Lucida-Grande', sans-serif;
 }
 
 .about-header {
-  height: 35%;
-  padding-top: 80px;
-  background-color: blue;
-  font-family: 'Lucida-Grande', sans-serif;
-  font-size: 25px;
+  height: 38%;
+  padding-top: 100px;
+  font-size: 40px;
+  color: #f5f5f5;
+  background-position: center !important;
+  background:
+    linear-gradient(
+    rgba(73, 50, 7, 0.73),
+    rgba(73, 50, 7, 0.73)
+  ),
+  url("/assets/images/about-header.jpg");
+
 }
 
-
 .about-content {
-  background-color: green;
-  height: 65%;
+  background-color: #6F4307;
+  height: 62%;
   font-family: 'Lucida-Grande', sans-serif;
+  font-size: 24px;
+  color: #f5f5f5;
+}
+
+#about .fa {
+  color: #f5f5f5 !important;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  padding-left: 35%;
+}
+
+i .fa {
+  height: 30px;
+  width: 30px;
+}
+
+.about-text {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  line-height: 1.8; 
 }
