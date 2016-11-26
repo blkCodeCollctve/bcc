@@ -292,6 +292,7 @@ i .fa {
    left: 0%;
    right: 0%;
    text-align: center;
+   cursor: pointer;
 }
 
 .rsvp-btn {
@@ -301,4 +302,92 @@ i .fa {
    opacity: .66;
    border-radius: 8px;
    padding: 15px 80px 15px 80px;
+}
+
+#organizers {
+  padding-top: 45px;
+}
+
+.organizers-header {
+  height: 12%;
+  background-color: #000000;
+  text-align: center;
+  opacity: .80;
+}
+
+.organizers-header p {
+  font-size: 46px;
+  letter-spacing: 8px;
+  padding-top: 5px;
+  color: #f5f5f5;
+}
+
+.organizers-item {
+  height: 88%;
+  width: 20% !important;
+  color: #f5f5f5;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+.organizers-item p{
+  bottom: 0 !important;
+  text-align: center;
+}
+
+.ea{
+  background:
+    linear-gradient(
+    rgba(73, 50, 7, 0.73),
+    rgba(73, 50, 7, 0.73)
+  ),
+  url("/assets/images/EA.png");
+
+  zoom: 80%;
+  background-repeat: no-repeat;
+}
+
+.lb {
+  background:
+    linear-gradient(
+    rgba(73, 50, 7, 0.73),
+    rgba(73, 50, 7, 0.73)
+  ),
+  url("/assets/images/LB.png");
+  zoom: 80%;
+  background-repeat: no-repeat;
+}
+
+.md {
+  background:
+    linear-gradient(
+    rgba(73, 50, 7, 0.73),
+    rgba(73, 50, 7, 0.73)
+  ),
+  url("/assets/images/MD.png");
+  zoom: 80%;
+  background-repeat: no-repeat;
+}
+
+.sh {
+  background:
+    linear-gradient(
+    rgba(73, 50, 7, 0.73),
+    rgba(73, 50, 7, 0.73)
+  ),
+  url("/assets/images/SH.png");
+  zoom: 80%;
+  background-repeat: no-repeat;
+}
+
+.tp {
+  background:
+    linear-gradient(
+    rgba(73, 50, 7, 0.73),
+    rgba(73, 50, 7, 0.73)
+  ),
+  url("/assets/images/TP.png");
+  zoom: 80%;
+  background-repeat: no-repeat;
 }
