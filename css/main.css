@@ -305,11 +305,11 @@ i .fa {
 }
 
 #organizers {
-  padding-top: 45px;
+  /*padding-top: 45px;*/
 }
 
 .organizers-header {
-  height: 12%;
+  height: 20%;
   background-color: #000000;
   text-align: center;
   opacity: .80;
@@ -318,12 +318,12 @@ i .fa {
 .organizers-header p {
   font-size: 46px;
   letter-spacing: 8px;
-  padding-top: 5px;
+  padding-top: 75px;
   color: #f5f5f5;
 }
 
 .organizers-item {
-  height: 88%;
+  height: 80%;
   width: 20% !important;
   color: #f5f5f5;
   font-size: 30px;
