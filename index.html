@@ -110,18 +110,32 @@
     <!--EVENT-->
     <section id="event">
       <div class="row">
-        <div class="col-md-6">
-          <img src="" />
+        <div class="col-md-6 event-image">
         </div>
-        <div class="col-md-6">
-          <h2>Black Code Collective Meet Up</h2>
-          <img src="" />
-          <span>1015 7th Street NW Washington, DC</span>
-          <span>6:30 - 8:30 p.m.</span>
+        <div class="col-md-6 event-content">
+          <div id="google-map">
+          </div>
 
-          <p>
-            Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt.
-          </p>
+          <div class="event-information">
+            <h2 class="event-title">Black Code Collective Monthly Meet Up</h2>
+            <span class="event-location">1015 7th Street NW </span><br />
+            <span class="event-state">Washington, DC</span><br />
+            <span class="event-time">6:30 - 8:30 p.m.</span>
+
+            <p class="event-description">
+              Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt.
+              Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt.
+            </p>
+
+
+          </div>
+
+          <a>
+            <div class="btn-container" href="">
+              <span class="rsvp-btn">RSVP</span>
+            </div>
+          </a>
+
 
         </div>
       </div>
@@ -213,4 +227,21 @@
     <footer>
 
     </footer>
+    <script>
+    function initMap() {
+        var uluru = {lat: 38.889931, lng: -77.009003};
+        var map = new google.maps.Map(document.getElementById('google-map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZJ1t554fxfxR5ewpuL-CrQU8LWbdqnz8&callback=initMap"></script>
+
+
   </body>
