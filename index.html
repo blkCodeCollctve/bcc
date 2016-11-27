@@ -53,9 +53,10 @@
         </video>
       </div>
 
-      <div class="bounce">
-        <i class="fa pointer"><img src="/assets/images/pointer.png" /></i>
-      </div>
+        <div class="bounce">
+          <!-- <i class="fa pointer"><img src="/assets/images/pointer.png" /></i> -->
+        </div>
+
 
 
     </section>
@@ -176,11 +177,21 @@
         <div class="col-md-3">
 
         </div>
-        <div class="col-md-6">
-          <p>
-            To become more involve with the community...
-          </p>
-          <button>Join Our Slack</button>
+        <div class="col-md-6 contact-section">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="contact-text">
+                To become more involve with the community...
+              </p>
+            </div>
+            <div class="contact-link-container">
+              <a class="contact-link" href="">
+                Join the Community!
+              </a>
+            </div>
+
+          </div>
+
 
         </div>
         <div class="col-md-3">
@@ -192,12 +203,12 @@
 
     <!--SPONSORS-->
     <section id="sponsors">
-      <div class="row">
+      <div class="row sponsors-header">
         <div class="col-md-12">
-          <h1>Our Sponsors...</h1>
+          <p>Our Sponsors...</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row sponsors-section">
         <div class="col-md-3">
           <img src="" />
           <span>Excella Consulting</span>
@@ -215,28 +226,32 @@
           <span>Capital One</span>
         </div>
       </div>
-
     </section>
     <!--SPONSORS-->
 
     <footer>
+      <div class="">
+        <h1>Follow Us!</h1>
+        <i class="fa fa-facebook-official fa-5x"></i>
+        <i class="fa fa-twitter fa-5x"></i>
+        <i class="fa fa-github fa-5x"></i>
+      </div>
 
     </footer>
-    <script>
-    function initMap() {
-        var uluru = {lat: 38.889931, lng: -77.009003};
-        var map = new google.maps.Map(document.getElementById('google-map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
+      <script>
+        function initMap() {
+            var uluru = {lat: 38.889931, lng: -77.009003};
+            var map = new google.maps.Map(document.getElementById('google-map'), {
+              zoom: 4,
+              center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZJ1t554fxfxR5ewpuL-CrQU8LWbdqnz8&callback=initMap"></script>
-
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZJ1t554fxfxR5ewpuL-CrQU8LWbdqnz8&callback=initMap"></script>
 
   </body>

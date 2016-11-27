@@ -76,6 +76,7 @@ li > a:hover:before {
 }
 
 .dropdown-content {
+  background-color: rgba(0,0,0,.50);
   display: none;
   position: static;
   text-align: center;
@@ -97,6 +98,10 @@ li > a:hover:before {
   position: absolute;
   height: 100%;
   width: 100%;
+}
+
+.dropborder{
+  padding-top: 16px;
 }
 
 .video-overlay {
@@ -293,6 +298,7 @@ i .fa {
    right: 0%;
    text-align: center;
    cursor: pointer;
+   color: #f5f5f5;
 }
 
 .rsvp-btn {
@@ -346,7 +352,6 @@ i .fa {
     rgba(73, 50, 7, 0.60)
   ),
   url("/assets/images/EA.png");
-
   zoom: 80%;
   background-repeat: no-repeat;
 }
@@ -393,4 +398,80 @@ i .fa {
   url("/assets/images/TP.png");
   zoom: 80%;
   background-repeat: no-repeat;
+}
+
+#contact {
+  height: 70%;
+  background-position: 60% 65% !important;
+  background:
+    linear-gradient(
+    rgba(73, 50, 7, 0.73),
+    rgba(73, 50, 7, 0.73)
+  ),
+  url("/assets/images/contact-image.jpg");
+}
+
+.contact-section {
+  background-color: #493207;
+  height: 100%;
+  opacity: .8;
+}
+
+.contact-text {
+  padding-top: 200px;
+  font-size: 34px;
+  color: #f5f5f5;
+  text-align: center;
+  letter-spacing: 6;
+
+}
+
+.contact-link-container {
+  position:absolute;
+   bottom: 100px;
+   left: 0%;
+   right: 0%;
+   text-align: center;
+   cursor: pointer;
+   color: #f5f5f5;
+}
+
+.contact-link {
+  font-size: 24px;
+  color: #f5f5f5;
+  padding-bottom: 50px;
+}
+
+#sponsors {
+  height: 30%;
+  background-position: 40% 60% !important;
+  background:
+    linear-gradient(
+    rgba(73, 50, 7, 0.0),
+    rgba(73, 50, 7, 0.0)
+  ),
+  url("/assets/images/about-header.jpg");
+  opacity: .13;
+  color: black;
+  border: 1px solid red;
+
+}
+
+.sponsor-header {
+  z-index: 999;
+}
+
+.sponsor-section {
+  z-index: 999;
+}
+
+footer {
+
+  height: 147px;
+  background-color: #000000;
+  opacity: .8;
+  color: #f5f5f5;
+  display: inline-block;
+  border: 1px solid red;
+
 }

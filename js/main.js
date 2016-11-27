@@ -1,6 +1,7 @@
 console.log("Initializing Page");
-//Added Navbar color change
 $(document).ready(function () {
+
+  //Added Navbar color change
     var scroll_start = 0;
     var startchange = $(".bounce");
     var offset = startchange.offset();
