@@ -6,7 +6,7 @@
 
 }
 
-#about, #event, #organizers, #header {
+#about, #event, #organizers, #header, #volunteer {
   width: 100% !important;
   height: 100% !important;
   position: relative;
@@ -486,7 +486,7 @@ i .fa {
 footer {
   /*height: 147px;*/
   background-color: #000000;
-  height: 147px;
+  height: 100px;
   opacity: .8;
   color: #f5f5f5;
   display: inline-block;
@@ -505,7 +505,7 @@ footer {
 
 .footer-container, span {
   font-size: 30px;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .sm-icons {
@@ -515,3 +515,28 @@ width: auto;
 text-align: center;
 display: inline-block;
 }
+
+/* VOLUNTEER */
+.volunteer-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #493207;
+    opacity: 0.73;
+    z-index: 1;
+}
+
+.volunteer-bg {
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/images/contact-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  zoom: 50%;
+  z-index: -1;
+}
+
+/* VOLUNTEER */
