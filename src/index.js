@@ -17,4 +17,4 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
   <Router history={browserHistory} routes={routes}/>
   </Provider>
-  , document.querySelector('#bcc'));
+  , document.querySelector('.bcc'));
