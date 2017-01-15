@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router'
 
 export default class Navbar extends Component {
   render(){
@@ -12,10 +13,10 @@ export default class Navbar extends Component {
               <a id="reflink" className="blockline">Activities</a>
               <div className="dropborder">
                 <ul>
-                  <li className="dropdown-content"><a href="/pages/volunteer.html">Volunteer</a></li>
-                  <li className="dropdown-content"><a href="/pages/projects.html">Projects</a></li>
-                  <li className="dropdown-content"><a href="/pages/gallery.html">Gallery</a></li>
-                  <li className="dropdown-content"><a href="/pages/talks-blogs.html">Blogs & Talks</a></li>
+                  <li className="dropdown-content"><Link to="/volunteer">Volunteer</Link></li>
+                  <li className="dropdown-content"><Link to="/projects">Projects</Link></li>
+                  <li className="dropdown-content"><Link to="/gallery">Gallery</Link></li>
+                  <li className="dropdown-content"><Link to ="/blogsandtalks">Blogs & Talks</Link></li>
                 </ul>
               </div>
             </li>
