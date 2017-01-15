@@ -1,12 +1,12 @@
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
 
-import App from './src/components/app'
-import Projects from './src/components/projects'
-import Gallery from './src/components/gallery'
-import Volunteer from './src/components/volunteer'
-import BlogsAndTalks from './src/components/blogsandtalks'
-import Main from './src/components/main'
+import App from './components/app'
+import Projects from './components/projects'
+import Gallery from './components/gallery'
+import Volunteer from './components/volunteer'
+import BlogsAndTalks from './components/blogsandtalks'
+import Main from './components/main'
 
 export default (
   <Route path="/" component={App}>

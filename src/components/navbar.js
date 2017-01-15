@@ -6,9 +6,9 @@ export default class Navbar extends Component {
     return (
       <div id="nav_bar" className="navbar">
         <ul>
-          <li><a href="#sponsors">Sponsors</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#organizers">Organizers</a></li>
+          <li><a href="#sponsors"><Link to="/">Sponsors</Link></a></li>
+          <li><a href="#contact"><Link to="/">Contact</Link></a></li>
+          <li><a href="#organizers"><Link to="/">Organizers</Link></a></li>
             <li className="dropdown">
               <a id="reflink" className="blockline">Activities</a>
               <div className="dropborder">
@@ -20,8 +20,8 @@ export default class Navbar extends Component {
                 </ul>
               </div>
             </li>
-          <li><a href="#event">Events</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#event"><Link to="/">Events</Link></a></li>
+          <li><a href="#about"><Link to="/">About</Link></a></li>
         </ul>
       </div>
     )
