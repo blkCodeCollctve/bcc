@@ -7,6 +7,6 @@ export default function (state = INITIAL_STATE, action){
     case FETCH_PROJECTS:
       return{...state, projects: action.payload.data};
     default:
-      return state; 
+      return state;
   }
 }

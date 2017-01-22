@@ -4,18 +4,28 @@ import { fetchProjects } from '../actions/index'
 
 
 class Projects extends Component {
+
   componentWillMount(){
-    // this.props.fetchProjects()
+    this.props.fetchProjects()
   }
 
-
-  renderProjects(){
-    return this.props.projects.map((project)=>{
+renderProjects(){
+  if(!this.props.projects){
+    return (
+      <li> Nothing</li>
+    )
+  } else {
+    return this.props.projects.map((project)=> {
       return (
-        <div>I will get the projects to show eventually</div>
+        <li className="list-group-item" key={project.id}>
+          {project.forks_url}
+        </li>
       )
     })
   }
+}
+
+
   render() {
     return (
       <div>
@@ -23,7 +33,7 @@ class Projects extends Component {
           <div className="col-md-2">
           </div>
           <div className="col-md-8">
-            {this.renderProjects}
+            {this.renderProjects()}
           </div>
           <div className="col-md-2">
           </div>
@@ -33,4 +43,8 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+function mapStatetoProps(state){
+  return { projects: state.projects.projects };
+}
+
+export default connect(mapStatetoProps, { fetchProjects })(Projects);
