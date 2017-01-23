@@ -14,7 +14,9 @@ class Projects extends Component {
 renderProjects(){
   if(!this.props.projects){
     return (
-      <li> Nothing</li>
+      <div className="loading">
+        <img src="../../assets/images/spinner-large.gif"/>
+      </div>
     )
   } else {
     return this.props.projects.map((project)=> {

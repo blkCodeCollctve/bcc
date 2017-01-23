@@ -548,7 +548,7 @@ display: inline-block;
 }
 
 .project {
-  height: 75%;
+  height: 80%;
   background-color: green;
   padding: 15px 15px 15px 15px;
 }
@@ -624,5 +624,9 @@ select {
   border-color: transparent;
   text-decoration: underline;
   color: white;
+}
+
+.loading {
+  text-align: center;
 }
 /* PROJECTS */
