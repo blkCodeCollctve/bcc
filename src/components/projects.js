@@ -22,18 +22,47 @@ renderProjects(){
     return this.props.projects.map((project)=> {
       return (
         <div className="project-padding">
-          <div className="project">
-            <div className="project-name">
-              <h1>{project.name}</h1>
-              <hr/>
+          <div className="project" key={project.id}>
+
+            <div className="row">
+              <div className="project-name">
+                <h1>{project.name}</h1>
+                <hr/>
+              </div>
+              <div className="col-md-6">
+                <div className="row">
+                  <div className="col-md-6">
+                    <h3> Languages: </h3>
+                    {project.languages_url}
+
+                  </div>
+                  <div className="col-md-6">
+                    <h3> Lines of Code </h3>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-12">
+                    <h3> Description: </h3>
+                    {project.description}
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                chart will go here
+              </div>
             </div>
 
-            <p className="list-group-item" key={project.id}>
-              Description: {project.description}<br/>
-              Language: {project.languages_url}<br/>
-              Contributors: {project.contributors_url}<br/>
-              Open Issues: {project.open_issues_count}<br/>
-            </p>
+            <div className="row">
+              <div className="col-md-6">
+                <h3> Contributors: </h3>
+                {project.contributors_url}
+
+              </div>
+              <div className="col-md-6">
+                <button>View Issues {project.open_issues_count}</button>
+              </div>
+            </div>
+
           </div>
         </div>
       )
