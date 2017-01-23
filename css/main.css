@@ -601,6 +601,8 @@ div.project-bg {
 .select-container {
   /*height: 10px;*/
   display: inline-block;
+  width: 100%;
+  color: #FFFFFF;
 }
 
 .filterby {
@@ -611,5 +613,16 @@ div.project-bg {
 .sortby {
   float: left;
   text-align: left;
+}
+
+label {
+  padding-right: 5px;
+}
+
+select {
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: underline;
+  color: white;
 }
 /* PROJECTS */

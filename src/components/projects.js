@@ -46,20 +46,15 @@ renderFilters (){
       <div className="sortby">
         <label>Sort By:</label>
         <select>
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="mercedes">Mercedes</option>
-          <option value="audi">Audi</option>
+          <option value="language">Language</option>
         </select>
       </div>
 
       <div className="filterby">
         <label>Filter By:</label>
         <select>
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="mercedes">Mercedes</option>
-          <option value="audi">Audi</option>
+          <option value="ascending">Ascending</option>
+          <option value="descending">Descending</option>
         </select>
       </div>
     </div>
