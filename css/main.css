@@ -540,3 +540,76 @@ display: inline-block;
 }
 
 /* VOLUNTEER */
+
+
+/* PROJECTS */
+.project-container {
+  padding-top: 90px;
+}
+
+.project {
+  height: 75%;
+  background-color: green;
+  padding: 15px 15px 15px 15px;
+}
+
+div.project-bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  background-position: center !important;
+  background:
+    linear-gradient(
+    rgba(73, 50, 7, 0.73),
+    rgba(73, 50, 7, 0.73)
+  ),
+  url("/assets/images/contact-image.jpg");
+}
+
+.project-padding {
+  padding: 15px 15px 15px 15px;
+}
+
+.project-name {
+  color: #FFFFFF;
+}
+
+.project-headline {
+  color: #FFFFFF;
+  font-size: 50px;
+  text-align: center;
+  /*padding-bottom: 10px;*/
+  letter-spacing: 8px;
+}
+
+.fixed-project-container {
+  height: 75%;
+  overflow:scroll;
+}
+
+.select-container {
+  /*height: 10px;*/
+  display: inline-block;
+}
+
+.filterby {
+  text-align: right;
+  float: right;
+}
+
+.sortby {
+  float: left;
+  text-align: left;
+}
+/* PROJECTS */
