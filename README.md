@@ -12,16 +12,18 @@ You will need to have Node Package Manager (NPM) installed to install the depend
 # To Get Started
 To get a view of how the website is suppose to look like you can checkout the images in the `mockups/` folder. There are no deadlines to this project and you can select any type of issue as you please.  To claim an issue just simply assign it to yourself.  If you come across something within the project you can also create an issue for it with details and a screenshot on what you came across, so it will be a lot easier for everyone to understand.
 
-1. Run `npm install`
-2. Create a file called apikeys.txt within the root directory of the project.
-3. Check if your `.gitignore` file has apikeys.txt in it, if it doesn't add it.
-4. Add the following in your apikeys.txt file.
+*  Run `npm install`
+* Create a file called apikeys.json within the root directory of the project.
+* Check if your `.gitignore` file has apikeys.json in it, if it doesn't add it.
+* Add the following in your apikeys.json file.
 ```
-GITHUB=[KEY]
-MEETUP=[KEY]
-IMGUR=[KEY]
+{
+  "github": "YOUR_KEY",
+  "meetup": "YOUR_KEY",
+  "imgur": "YOUR_KEY"
+}
 ```
-5. Run `npm start` to view the application.
+* Run `npm start` to view the application.
 
 If there is some discrepancies in the step please feel free to update the ReadMe and let the project owners aware of the changes.
 

@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { fetchProjects } from '../actions/index'
+import {getResponse } from '../actions/utils'
 
 
 class Projects extends Component {
 
 //Stats on code history RECENT ACTIVITY https://developer.github.com/v3/repos/statistics/
+//filter highest issue, recent activity, languages 
 
   componentWillMount(){
     this.props.fetchProjects()
