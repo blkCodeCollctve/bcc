@@ -3,11 +3,13 @@ import { connect } from 'react-redux'
 import { fetchProjects } from '../actions/index'
 import {getResponse } from '../actions/utils'
 
+import Language from './projects/language'
+
 
 class Projects extends Component {
 
 //Stats on code history RECENT ACTIVITY https://developer.github.com/v3/repos/statistics/
-//filter highest issue, recent activity, languages 
+//filter highest issue, recent activity, languages
 
   componentWillMount(){
     this.props.fetchProjects()
@@ -35,7 +37,8 @@ renderProjects(){
                 <div className="row">
                   <div className="col-md-6">
                     <h3> Languages: </h3>
-                    {project.languages_url}
+                    {/* {project.languages_url} */}
+                    <Language/>
 
                   </div>
                   <div className="col-md-6">
