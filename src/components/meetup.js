@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { fetchNextMeetupEvent } from '../actions/meetup'
-import { getResponse } from '../actions/utils'
 
 class Meetup extends Component {
   componentWillMount(){
