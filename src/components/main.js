@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Meetup from './meetup'
 
 //Holds the NavBar
 export default class Main extends Component {
@@ -67,37 +68,7 @@ export default class Main extends Component {
           </section>
 
           <section id="event">
-            <div className="row">
-              <div className="col-md-6 event-image">
-              </div>
-              <div className="col-md-6 event-content">
-                <div id="google-map">
-                </div>
-
-                <div className="event-information">
-                  <h2 className="event-title">Black Code Collective Monthly Meet Up</h2>
-                  <span className="event-location">1015 7th Street NW </span><br />
-                  <span className="event-state">Washington, DC</span><br />
-                  <span className="event-time">6:30 - 8:30 p.m.</span>
-
-                  <p className="event-description">
-                    Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt.
-                    Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt.
-                  </p>
-
-
-                </div>
-
-                <a>
-                  <div className="btn-container" href="">
-                    <span className="rsvp-btn">RSVP</span>
-                  </div>
-                </a>
-
-
-              </div>
-            </div>
-
+            <Meetup />
           </section>
 
           <section id="organizers">
