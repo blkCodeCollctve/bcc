@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { fetchNextMeetupEvent } from '../actions/meetup'
+import { fetchNextMeetupEvent } from '../actions/index'
 
 class Meetup extends Component {
   componentWillMount(){
@@ -18,8 +18,8 @@ class Meetup extends Component {
           <div className="col-md-6 event-content">
             <div className="event-information">
               <h2 className="event-title">{this.props.meetup.meetup_event.name}</h2>
-              <span className="event-location">{this.props.meetup.meetup_event.venue.address_1}</span><br />
-              <span className="event-state">{this.props.meetup.meetup_event.venue.city}, {this.props.meetup.meetup_event.venue.state}</span><br />
+              <span className="event-location">{/*this.props.meetup.meetup_event.venue.address_1*/}</span><br />
+              <span className="event-state">{/*this.props.meetup.meetup_event.venue.city*/}, {/*this.props.meetup.meetup_event.venue.state*/}</span><br />
               <span className="event-time">6:30 - 8:30 p.m.</span>
 
               <p className="event-description">

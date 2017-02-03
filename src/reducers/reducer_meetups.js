@@ -1,4 +1,4 @@
-import { FETCH_MEETUP_EVENT } from '../actions/meetup'
+import { FETCH_MEETUP_EVENT } from '../actions/index'
 
 const INITIAL_STATE = {meetup_event: null}
 
