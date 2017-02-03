@@ -1,17 +1,17 @@
 import axios from 'axios'
 //
-function getKey(filename, apiname) {
-  $.ajax({
+function getKey(filename) {
+  fetch({
             method: 'GET',
             async: false,
             url: filename,
             dataType: 'jsonp',
             success: function (){
               //have the function return value base off of the apiname parameter
-              console.log("RETURNED value", value);
+              return value;
             },
             error: function (error){
-              console.error(error);
+              return error
             }
         });
 }
