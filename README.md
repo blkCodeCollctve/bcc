@@ -27,4 +27,15 @@ To get a view of how the website is suppose to look like you can checkout the im
 
 If there is some discrepancies in the step please feel free to update the ReadMe and let the project owners aware of the changes.
 
+# Testing
+This is a full stack React project so we figured that we would be using the offical React testing framework Jest. 
+Jest was created by the FaceBook and we are using it concurrently with Enzyme to test our components as well as reducers and Actions
+To run the tests you will need to run `npm test`
+
+Below is a link to the Jest framework as well as a really detailed
+guide on how to write tests for React components. 
+[Jest Framework](https://facebook.github.io/jest/)
+[Enzyme](http://airbnb.io/enzyme/)
+[Guide to Writing tests for React Components and Reducers](http://redux.js.org/docs/recipes/WritingTests.html)
+
 Thanks a million for contributing!!!!
