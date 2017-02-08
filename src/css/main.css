@@ -206,7 +206,7 @@ video{
     rgba(73, 50, 7, 0.73),
     rgba(73, 50, 7, 0.73)
   ),
-  url("/assets/images/about-header.jpg");
+  url("../assets/images/about-header.jpg");
 
 }
 
@@ -249,7 +249,7 @@ i .fa {
     rgba(73, 50, 7, 0.73),
     rgba(73, 50, 7, 0.73)
   ),
-  url("/assets/images/event-image.jpg");
+  url("../assets/images/event-image.jpg");
   height: 100%;
 }
 
@@ -352,7 +352,7 @@ i .fa {
     rgba(73, 50, 7, 0.60),
     rgba(73, 50, 7, 0.60)
   ),
-  url("/assets/images/EA.png");
+  url("../assets/images/EA.png");
   /*zoom: 80%;*/
   background-repeat: no-repeat;
 }
@@ -363,7 +363,7 @@ i .fa {
     rgba(73, 50, 7, 0.60),
     rgba(73, 50, 7, 0.60)
   ),
-  url("/assets/images/LB.png");
+  url("../assets/images/LB.png");
   /*zoom: 80%;*/
   background-repeat: no-repeat;
 }
@@ -374,7 +374,7 @@ i .fa {
     rgba(73, 50, 7, 0.60),
     rgba(73, 50, 7, 0.60)
   ),
-  url("/assets/images/MD.png");
+  url("../assets/images/MD.png");
   /*zoom: 80%;*/
   background-repeat: no-repeat;
 }
@@ -385,7 +385,7 @@ i .fa {
     rgba(73, 50, 7, 0.60),
     rgba(73, 50, 7, 0.60)
   ),
-  url("/assets/images/SH.png");
+  url("../assets/images/SH.png");
   /*zoom: 80%;*/
   background-repeat: no-repeat;
 }
@@ -396,7 +396,7 @@ i .fa {
     rgba(73, 50, 7, 0.60),
     rgba(73, 50, 7, 0.60)
   ),
-  url("/assets/images/TP.png");
+  url("../assets/images/TP.png");
   /*zoom: 80%;*/
   background-repeat: no-repeat;
 }
@@ -409,7 +409,7 @@ i .fa {
     rgba(73, 50, 7, 0.73),
     rgba(73, 50, 7, 0.73)
   ),
-  url("/assets/images/contact-image.jpg");
+  url("../assets/images/contact-image.jpg");
 }
 
 .contact-section {
@@ -452,7 +452,7 @@ i .fa {
     rgba(73, 50, 7, 0.0),
     rgba(73, 50, 7, 0.0)
   ),
-  url("/assets/images/about-header.jpg");
+  url("../assets/images/about-header.jpg");
   /*opacity: .13;*/
   color: black;
   background-color: blue;
@@ -531,7 +531,7 @@ display: inline-block;
 .volunteer-bg {
   height: 100%;
   width: 100%;
-  background-image: url("/assets/images/contact-image.jpg");
+  background-image: url("../assets/images/contact-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -574,7 +574,7 @@ div.project-bg {
     rgba(73, 50, 7, 0.73),
     rgba(73, 50, 7, 0.73)
   ),
-  url("/assets/images/contact-image.jpg");
+  url("../assets/images/contact-image.jpg");
 }
 
 .project-padding {
@@ -628,6 +628,6 @@ select {
 
 .loading {
   text-align: center;
-  padding: 50px; 
+  padding: 50px;
 }
 /* PROJECTS */

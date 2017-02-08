@@ -40,7 +40,7 @@ export class Meetup extends Component {
           <div className="col-md-6 event-image">
           </div>
           <div className="loading">
-            <img src="../../assets/images/spinner-large.gif"/>
+            <img src="src/assets/images/spinner-large.gif"/>
           </div>
         </div>
       )
