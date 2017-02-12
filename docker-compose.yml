@@ -1,16 +1,16 @@
-node:
-  build: ./app
-  volumes:
-    - ./app:/src/app
-  ports:
-    - "3000"
-  command: npm start
-
-nginx:
-  build: ./server
-  volumes_from:
-    - node
-  links:
-    - node
-  ports:
-    - "80:80"
+# node:
+#   build: ./app
+#   volumes:
+#     - ./app:/src/app
+#   ports:
+#     - "3000"
+#   command: npm start
+#
+# nginx:
+#   build: ./server
+#   volumes_from:
+#     - node
+#   links:
+#     - node
+#   ports:
+#     - "80:80"
