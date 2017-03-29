@@ -9,15 +9,15 @@ export default class Main extends Component {
           <section id="header">
 
             <div className="img-container">
-              <img src="/assets/images/headerlogo.png" className="logo img-responsive"/>
+              <img src="../assets/images/headerlogo.png" className="logo img-responsive"/>
             </div>
 
             <div className="video-overlay"></div>
             <div className="video-wrap">
               <video width="300" height="150" className="bg-video"  autoPlay="autoplay" loop="loop" muted="">
-                <source src="/assets/video/Indian-Pedestrian.mp4" type="video/mp4" />
-                <source src="/assets/video/Indian-Pedestrian.ogv" type="video/ogg" />
-                <source src="/assets/video/Indian-Pedestrian.webm" type="video/webm" />
+                <source src="../assets/video/Indian-Pedestrian.mp4" type="video/mp4" />
+                <source src="../assets/video/Indian-Pedestrian.ogv" type="video/ogg" />
+                <source src="../assets/video/Indian-Pedestrian.webm" type="video/webm" />
                 Your browser doesn't support HTML5 video. Here's a <a href="#">link</a> to download the video.
               </video>
             </div>

@@ -1,3 +1,4 @@
 node_modules
 apikeys.json
-src/static
+src/static/js/bundle.js
+.vscode
